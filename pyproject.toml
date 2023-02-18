@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "rws-semantic"
+version = "0.1.0"
+description = ""
+authors = ["Ruben Verweij <ruben.verweij@datapreds.com>"]
+readme = "README.md"
+packages = [{include = "rws-semantic"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pytest = "^7.2.1"
+pre-commit = "^3.0.4"
+black = "^23.1.0"
+pylint = "^2.16.2"
+jupyter = "^1.0.0"
+pandas = "^1.5.3"
+sentence-transformers = "^2.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
