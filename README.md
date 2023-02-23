@@ -7,5 +7,5 @@ poetry install
 # Usage
 
 ```shell
-python src/similarity/main.py -f <location>
+python src/similarity/main.py -file "data/<filename>" -top 4
 ```
